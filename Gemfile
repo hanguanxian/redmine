@@ -55,6 +55,7 @@ group :development do
   gem "rdoc", ">= 2.4.2"
   gem "yard"
 end
+gem 'rails_12factor', group: :production
 
 group :test do
   gem "shoulda", "~> 3.3.2"
@@ -64,7 +65,7 @@ group :test do
     gem "selenium-webdriver"
   end
 end
-
+ruby "2.0.0"
 local_gemfile = File.join(File.dirname(__FILE__), "Gemfile.local")
 if File.exists?(local_gemfile)
   puts "Loading Gemfile.local ..." if $DEBUG # `ruby -d` or `bundle -v`
