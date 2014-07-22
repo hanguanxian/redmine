@@ -46,16 +46,16 @@ end
 # configuration file
 require 'erb'
 require 'yaml'
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg", ">= 0.11.0" 
+end
 
 group :development do
   gem "rdoc", ">= 2.4.2"
   gem "yard"
 end
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
-ruby '2.0.0'
+gem 'rails_12factor', group: :production
 
 group :test do
   gem "shoulda", "~> 3.3.2"

@@ -143,10 +143,10 @@ DEPENDENCIES
   mime-types
   mocha (~> 1.0.0)
   net-ldap (~> 0.3.1)
-  pg (= 0.15.1)
+  pg (>= 0.11.0)
   rack-openid
   rails (= 3.2.19)
-  rails_12factor (= 0.0.2)
+  rails_12factor
   rake (~> 10.1.1)
   rdoc (>= 2.4.2)
   redcarpet (~> 2.3.0)
