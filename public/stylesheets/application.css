@@ -11,7 +11,7 @@ h4 {border-bottom: 1px dotted #bbb;}
 /***** Layout *****/
 #wrapper {background: white;}
 
-#top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 2px 0px 6px;}
+#top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 1em; padding: 2px 2px 0px 6px;}
 #top-menu ul {margin: 0;  padding: 0;}
 #top-menu li {
   float:left;
